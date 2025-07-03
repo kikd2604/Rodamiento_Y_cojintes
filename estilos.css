@@ -1,0 +1,146 @@
+/*Hoja de estilos*/
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	background-color: #1A936F;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+.contenedor{
+	background-color: #1A936F;
+	width: 90%;
+	margin: auto;
+}
+.contenedor .menu{
+    width: 100%;
+    margin: auto;
+    background-color: #114B5F;
+    text-align: center;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.contenedor .menu a {
+color: #fff;
+font-family: Arial;
+font-size: 26px;
+font-weight: bold;
+text-decoration: none;
+display: inline-block;
+margin: 30px 15px;
+}
+.contenedor .menu a:hover {
+color: red;
+text-decoration: underline;
+}
+.contenedor .titular{
+	background-color: #9BD1EB;
+    width: 65%;
+    margin: 35px auto;
+    padding: 15px;
+    margin-bottom: 100px;
+}
+.contenedor .titular img{
+	display: block;
+	margin: auto;
+	width: 55%;
+	border-radius: 80px;
+	margin-bottom: 15px;
+	margin-top: 55px;
+}
+.contenedor .articulo{
+	background-color: #88D498;
+	width: 75%;
+	margin: 35px auto;
+	padding: 15px;
+	display: flex;
+}
+.contenedor .articulo img{
+	display: block;
+	width: 40%;
+	margin: auto;
+}
+.contenedor .articulo .info {
+	width: 50%;
+	margin: auto;
+
+}
+.contenedor .articulo .info h2{
+font-size: 20px;
+text-align: center;
+color:#145D63;
+padding-bottom: 10px;
+}
+.contenedor .articulo .info p{
+	font-size: 17px;
+	text-align: justify;
+    color: black;
+    line-height: 1.1;
+}
+.contenedor .pie-pagina p {
+	color: #fff;
+	font-size: 14px;
+	line-height: 1.4;
+}
+.contenedor .tabla{
+	width: 75%;
+    margin: 25px auto;
+}
+.contenedor .tabla table{
+	text-align: center;
+	border-collapse:collapse ;
+	border: 4px solid #FF1654;
+}
+.contenedor .tabla table th {
+	font-size: 15px;
+	background-color:#FFE5D9 ;
+	color:black ;
+	padding: 20px 0;
+}
+.contenedor .tabla table td {
+	font-size: 14px;
+	border: 2px solid #FF1654;
+	background-color:#429EA6 ;
+	color:#fff ;
+	padding: 10px 20px;
+}
+.contenedor .tabla table img{
+	display: block;
+	margin: auto;
+	border-radius: 50px;
+	margin-left: 10px;
+	margin-right: 200px;
+	width: 80%;
+}
+.contenedor .organizaciones
+{
+	margin: 0 auto;
+	width: 100%;
+	background-color: lightcoral;
+	padding: 35px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.contenedor .organizaciones h2 {
+	text-align: center;
+	font-size: 22px;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+.contenedor .organizaciones .contacto{
+	background-color:lightskyblue;
+	width: 20%;
+	margin: 25px auto;
+	padding: 10px 15px;
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0);
+}
+.contenedor .organizaciones .contacto h3,.contenedor .organizaciones .contacto p,.contenedor .organizaciones .contacto h5,{
+	padding: 7px 0;
+	color:#1A936F ;
+}	
